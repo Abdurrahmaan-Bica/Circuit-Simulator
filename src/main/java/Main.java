@@ -2,7 +2,6 @@ import Schaltungen.ParallelSchaltung;
 import Schaltungen.ReihenSchaltung;
 import Exception.InvalidNumberOfResistorsException;
 import Exception.InvalidCircuitException;
-
 import javax.swing.*;
 import java.math.BigDecimal;
 
@@ -85,6 +84,7 @@ public class Main {
         }catch (Exception e){
             JOptionPane.showMessageDialog(null, "Unbestimmter Fehler!", "Oops :(, etwas ist schief gelaufen.", JOptionPane.WARNING_MESSAGE);
         }
+
 
     }
 
