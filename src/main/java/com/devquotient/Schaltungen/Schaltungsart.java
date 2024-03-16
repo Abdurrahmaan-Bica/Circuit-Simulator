@@ -1,4 +1,4 @@
-package Schaltungen;
+package com.devquotient.Schaltungen;
 
 /**
  * Enum von 2 wichtigsten Schaltungsarten

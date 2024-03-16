@@ -1,6 +1,6 @@
-package Schaltungen;
+package com.devquotient.Schaltungen;
 
-import Exception.InvalidNumberOfResistorsException;
+import com.devquotient.Exception.InvalidNumberOfResistorsException;
 
 import javax.swing.*;
 import java.math.BigDecimal;
@@ -23,6 +23,9 @@ public abstract class Schaltung {
         this.schaltungsart = schaltungsart;
         this.anzahlDerWiderstaende = anzahlDerWiderstaende;
 
+    }
+
+    public Schaltung() {
     }
 
     public int getMAXIMALE_ANZAHL_VON_MOEGLICHEN_WIDERSTAENDEN() {

@@ -1,6 +1,6 @@
-package Schaltungen;
+package com.devquotient.Schaltungen;
 
-import Exception.InvalidNumberOfResistorsException;
+import com.devquotient.Exception.InvalidNumberOfResistorsException;
 
 import java.math.BigDecimal;
 
@@ -13,6 +13,9 @@ public class ReihenSchaltung extends Schaltung {
     public ReihenSchaltung(int anzahlDerWiderstaende) {
         super(anzahlDerWiderstaende);
         this.setSchaltungsart(Schaltungsart.REIHENSCHALTUNG);
+    }
+
+    public ReihenSchaltung() {
     }
 
     /**

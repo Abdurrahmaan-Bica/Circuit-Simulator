@@ -1,7 +1,9 @@
-import Schaltungen.ParallelSchaltung;
-import Schaltungen.ReihenSchaltung;
-import Exception.InvalidNumberOfResistorsException;
-import Exception.InvalidCircuitException;
+package com.devquotient;
+
+import com.devquotient.Schaltungen.ParallelSchaltung;
+import com.devquotient.Schaltungen.ReihenSchaltung;
+import com.devquotient.Exception.InvalidNumberOfResistorsException;
+import com.devquotient.Exception.InvalidCircuitException;
 import javax.swing.*;
 import java.math.BigDecimal;
 

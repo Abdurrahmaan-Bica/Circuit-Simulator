@@ -1,4 +1,4 @@
-package Exception;
+package com.devquotient.Exception;
 
 public class InvalidNumberOfResistorsException extends Exception {
     public InvalidNumberOfResistorsException(String message) {
