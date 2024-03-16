@@ -15,6 +15,22 @@
 2. Open the project in your preferred **Java IDE**.
 3. **Compile** the project.
 
+## Maven Project 📦
+
+This is a Maven project. Make sure you have Maven installed on your system. You can compile and run the project using Maven commands.
+
+```bash
+mvn compile
+mvn exec:java
+**Dependencies** 🛠️
+JUnit5: This project uses JUnit5 for unit testing. If you want to run the tests, make sure to include JUnit5 in your project dependencies.
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.8.1</version>
+    <scope>test</scope>
+</dependency>
+
 ## Usage 🖥️
 
 1. **Run the program**.
