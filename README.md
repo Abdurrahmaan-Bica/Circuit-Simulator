@@ -1,6 +1,6 @@
 # Java Circuit Simulator 
 
-**Java Circuit Simulator** is a simple program that calculates the total resistance of both series and parallel circuits.
+**Java Circuit Simulator** is a user-friendly program designed to facilitate the calculation of total resistance in both series and parallel circuits.
 
 ## Features 🚀
 
@@ -23,13 +23,20 @@
 4. **Enter the number of resistors** and their values when prompted.
 5. View the calculated **total resistance** in the output.
 
+## Testing 🧪
+
+The project includes comprehensive unit tests using **JUnit5** to ensure the accuracy and reliability of the calculations. To run the tests:
+
+1. Navigate to the test directory.
+2. Run the test suites using JUnit5 or your preferred testing framework.
+
 ## Contribution 🤝
 
 Contributions are welcome! If you want to contribute to this project, **fork the repository** and submit a **pull request**.
 
 ## Language 🌍
 
-The source code and documentation comments are written in **German**. If you don't speak German, you can follow these steps to use the project:
+The source code and documentation comments are primarily written in **German**. If you don't speak German, you can:
 
 - Use a translation tool or an IDE with integrated translation features to understand the code.
 - Feel free to contact the developer if you have any questions or issues.
