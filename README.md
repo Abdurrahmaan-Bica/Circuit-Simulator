@@ -44,7 +44,7 @@ JUnit5: This project uses JUnit5 for unit testing. If you want to run the tests,
 The project includes comprehensive unit tests using **JUnit5** to ensure the accuracy and reliability of the calculations. To run the tests:
 
 1. Navigate to the test directory.
-2. Run the test suites using JUnit5 or your preferred testing framework.
+2. Run the test suites using JUnit5.
 
 ## Contribution 🤝
 
